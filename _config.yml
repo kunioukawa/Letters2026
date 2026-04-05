@@ -10,6 +10,7 @@ description: >-
 
 # URL設定（ここが重要です！）
 url: "https://kunioukawa.github.io"
+# The base URL of your site
 baseurl: "/Letters2026"
 
 github:
@@ -131,8 +132,7 @@ pwa:
 
 paginate: 10
 
-# The base URL of your site
-baseurl: ""
+
 
 # ------------ The following options are not recommended to be modified ------------------
 
