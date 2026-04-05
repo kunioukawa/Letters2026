@@ -1,15 +1,26 @@
-# Chirpy Starter
+# 鵜川医院レター
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+本リポジトリは、鵜川医院におけるレター（医療情報・コラム等）を公開するためのサイトです。  
+内容は一般公開（Public）されており、どなたでも閲覧可能です。
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+## 概要
 
-## Why This Starter Exists
+- 鵜川医院から発信する医療情報・エッセイ・臨床的考察を掲載します
+- 主に患者さんや医療関係者に向けた内容を想定しています
+- 記事は随時追加・更新されます
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+## 技術構成
 
-To unlock all features, the following files must be present in your Jekyll site:
+本サイトは以下の構成で運用しています：
+
+- 静的サイトジェネレーター：Jekyll
+- テーマ：Chirpy
+- ホスティング：GitHub Pages
+
+Chirpyテーマをベースに、必要なファイル（`_config.yml`、`_tabs`、`_plugins` など）を含めた構成としています。
+
+## ディレクトリ構成（概要）
+
 
 ```shell
 .
@@ -19,21 +30,27 @@ To unlock all features, the following files must be present in your Jekyll site:
 └── index.html
 ```
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
 
-## Usage
+## 運用方針
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+- 記事はMarkdown形式で作成します
+- ファイル名は日付ベースで管理します（例：`2024-05-01-letter.md`）
+- 内容は医療情報を含みますが、個別診療の代替ではありません
 
-## Contributing
+## ライセンス
 
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
+本リポジトリは MITライセンスのもとで公開されています。
 
-## License
+MITライセンスの要点は以下の通りです：
 
-This work is published under [MIT][mit] License.
+- ソフトウェアの利用・改変・再配布は自由
+- 商用利用も可能
+- ただし著作権表示とライセンス文の保持が必要
+- 作者は一切の責任を負いません（無保証）
 
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+詳細は `LICENSE` ファイルをご参照ください。
+
+## 補足
+
+- 本リポジトリは将来的な拡張（デザイン変更、機能追加等）を想定しています
+- Chirpyテーマの仕様変更に応じて構成が更新される可能性があります
