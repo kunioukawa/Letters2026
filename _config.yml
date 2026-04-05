@@ -1,48 +1,30 @@
 # The Site Configuration
-
-# Import the theme
 theme: jekyll-theme-chirpy
-
-# The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
-# If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
-# otherwise, the layout language will use the default value of 'en'.
 lang: ja
-
-# Change to your timezone › https://zones.arilyn.cc
 timezone: Asia/Tokyo
 
-# jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-# ↓ --------------------------
-
 title: 鵜川医院レター
-
 tagline: ディテールで刺す、メタ認知マガジン
+description: >-
+  医学・科学・美術など多分野を横断し、ディテールから本質を読み解くメタ認知型ブログ。臨床と日常をつなぐ思考の記録。
 
-description: 医学・科学・美術など多分野を横断し、ディテールから本質を読み解くメタ認知型ブログ。臨床と日常をつなぐ思考の記録。
-
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://kunioukawa.github.io/Letters2026"
+# URL設定（ここが重要です！）
+url: "https://kunioukawa.github.io"
+baseurl: "/Letters2026"
 
 github:
-  username: kunioukawa # change to your GitHub username
+  username: kunioukawa
 
 twitter:
-  username: T0NARI # change to your Twitter username
+  username: T0NARI
 
 social:
-  # Change to your full name.
-  # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Kunio Ukawa
-  email: info@ukawaiin.com # change to your email address
-  fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
-  links: ukawaiin.com
-    # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+  email: info@ukawaiin.com
+  links:
+    - https://ukawaiin.com
+    - https://twitter.com/T0NARI
+    - https://github.com/kunioukawa
 
 # Site Verification Settings
 webmaster_verifications:
