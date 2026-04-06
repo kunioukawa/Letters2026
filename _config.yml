@@ -11,7 +11,7 @@ description: >-
 # URL設定（ここが重要です！）
 url: "https://kunio.uk"
 # The base URL of your site
-baseurl: ""
+baseurl: "/Letters2026"
 
 github:
   username: kunioukawa
