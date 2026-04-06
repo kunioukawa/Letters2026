@@ -9,9 +9,9 @@ description: >-
   医学・科学・美術など多分野を横断し、ディテールから本質を読み解くメタ認知型ブログ。臨床と日常をつなぐ思考の記録。
 
 # URL設定（ここが重要です！）
-url: "https://kunioukawa.github.io"
+url: "https://kunio.uk"
 # The base URL of your site
-baseurl: "/Letters2026"
+baseurl: ""
 
 github:
   username: kunioukawa
